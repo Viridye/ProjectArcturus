@@ -1,0 +1,65 @@
+.maxMenu {
+    width: 200px;
+}
+
+.ofMain_menu {
+    overflow: hidden;
+    background: #d6d6d6;
+    z-index: 1000;
+}
+
+.ofAppMenu {
+    font-family: 'Segoe UI',Roboto,Helvetica, Arial, sans-serif;    
+}
+
+.ofAppMenu > ul > li > a {
+    color: #090909;
+    background: #d6d6d6;
+}
+
+ .ofAppMenu ul, .ofAppMenu ul li a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ofAppMenu > ul > li.ofActive > a {
+    background-color: #a4bac6;
+    border-left: 10px solid #0055aa;
+    color: #0055aa;
+    padding-left: 0;
+}
+
+.ofAppMenu > ul > li:not(.ofAction) > a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ofAppMenu > ul > li > a {
+    padding: 4px 0 0px 0;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.ofAppMenu .menuIcon {
+    position: relative;
+    vertical-align: sub;
+}
+
+.ofAppMenu ul li:hover > a {
+    color: #090909;
+    background: #b8c6cc;
+}
+
+.ofAppMenu .menuTextDesc {
+    border-color: rgba(0, 0, 0, 0.34902);
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 12px;
+    font-size: 15px;
+    padding-left: 10px;
+}

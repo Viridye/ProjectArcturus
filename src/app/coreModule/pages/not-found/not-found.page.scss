@@ -1,0 +1,55 @@
+
+
+
+not-found-page {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+not-found-page .c {
+  text-align: center;
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 100px auto;
+}
+
+not-found-page .c ._404 {
+  font-size: 220px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+  height: 250px;
+  letter-spacing: 15px;
+}
+
+not-found-page .c ._1 {
+  text-align: center;
+  display: block;
+  position: relative;
+  letter-spacing: 12px;
+  font-size: 4em;
+  line-height: 80%;
+}
+
+not-found-page .c ._2 {
+  text-align: center;
+  display: block;
+  position: relative;
+  font-size: 20px;
+}
+
+not-found-page .c hr {
+  padding: 0;
+  border: none;
+  border-top: 5px solid;
+  text-align: center;
+  color: black;
+  margin: 0px auto;
+  width: 420px;
+  height: 10px;
+  z-index: -10;
+}
+
+

@@ -1,0 +1,11 @@
+<div mat-dialog-content>
+    {{infoText}}
+</div>
+  
+<div mat-dialog-actions>
+    <button mat-button [mat-dialog-close]="type.Negative" id="negative" *ngIf="buttonNegative">{{buttonNegative}}</button>
+    <div fxFlex></div>
+    <button mat-button [mat-dialog-close]="type.Positive" id="positive" *ngIf="buttonPositive">{{buttonPositive}}</button>
+    <button mat-button [mat-dialog-close]="type.Optional" id="optional" *ngIf="buttonOptional" style="margin-left:8px;">{{buttonOptional}}</button>
+</div>
+  

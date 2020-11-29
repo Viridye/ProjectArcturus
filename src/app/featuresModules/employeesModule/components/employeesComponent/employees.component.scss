@@ -1,0 +1,14 @@
+table {
+    width: 100%;
+    padding-right: 15px;
+}
+
+.table-container {
+    margin-top: 10px;
+    max-height:  calc(100% - 71px);
+    overflow: auto;
+}
+
+.mat-table {
+    background-color: #fafafa;
+}
