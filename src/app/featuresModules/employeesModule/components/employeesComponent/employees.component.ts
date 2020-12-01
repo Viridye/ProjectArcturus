@@ -1,7 +1,7 @@
 import { Component, ViewEncapsulation, OnInit, AfterViewInit, ViewChild } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { MatTableDataSource } from '@angular/material/table';
-import * as moment from 'moment';
+import moment from 'moment';
 import { Subscription } from 'rxjs';
 import { ConfirmDialogComponent } from 'src/app/sharedModules/components/confirmDialog/confirm-dialog.component';
 import { ConfirmResult } from 'src/app/sharedModules/models/confirm-result.enum';
